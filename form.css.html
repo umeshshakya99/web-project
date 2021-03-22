@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<script type="text/javascript">
+	const name = document.getElementById('name')
+	const password = document.getElementById('password')
+	const form = document.getElementById('form')
+
+	form.addEventListener('submit',(e) =>(
+       let messages=[]
+       if (name.value ==='' || name.value == null)(
+       	messages.push('name is reqiard')
+
+       	)
+
+       	if(messages.lenght >0)(
+        e.preventDefault()
+        errorElement.innerText = messages.join(',')
+
+        )
+		))
+
+</script>
+
+</head>
+<body>
+	<form action="/" method="GET">
+		<div id="error">
+			<label for="name">name</label>
+			<input id="name" name="name" type="text">
+		</div>
+		<div>
+			<label for="password">password</label>
+			<input id="password" name="password" type="password">
+		</div>
+		<button type="submit">submit</button>
+		
+	</form>
+
+</body>
+</html>
