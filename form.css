@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	text-align: center;
+	background-color:#ccffee;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#nam{
+	text-align: center;
+}
+#add{
+	text-align: center;
+
+}
+#ph{
+	text-align: center;
+}
+#em{
+	text-align: center;
+}
