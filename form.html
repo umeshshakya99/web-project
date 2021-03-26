@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="form.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-success text-center"> Login Form</h1>
+		<div class="col-lg-8 m-auto d-block">
+			<form action="#" onsubmit=" return validation()" class="bg-light">
+				<div class="form-group">
+					<label>Username</label>
+					<input type="text" name="Username" class="form-control" id="username" autocomplete="off">
+					<span id="user" class="text-danger font-weight-bold"></span>
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="text" name="Password" class="form-control" id="passw" autocomplete="off">
+					<span id="password" class="text-danger font-weight-bold"></span>
+				</div>
+				
+				<div class="form-group">
+					<label>Mobile Number</label>
+					<input type="text" name="number" class="form-control" id="mobileNumber" autocomplete="off">
+					<span id="mobilenumber" class="text-danger font-weight-bold"></span>
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="text" name="email" class="form-control" id="email" autocomplete="off">
+					<span id="em" class="text-danger font-weight-bold"></span>
+				</div>
+				<input type="submit" name="submit"value="Submit" class="btn btn-success">
+				
+
+			</form>
+			
+		</div>
+		
+	</div>
+	<script >
+		
+
+	</script>
+
+</body>
+</html>
